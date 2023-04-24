@@ -8,59 +8,61 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body class="dark-mode">
-    <nav>
+    <nav id="nav-menu">
         <div>
             <img src="./images/logo2-removebg.png" alt="" onclick="scrollToTop()">
         </div>
         <div>
-            <p id="home" onclick="scrollToTop()">Home</p>
-            <p id="about">About</p>
-            <p>Skills</p>
-            <p>Projects</p>
-            <p>Statistics</p>
-            <p>Contact</p>
-            <a href="./Ashiqur-Rahaman -Resume.pdf" download="Ashiqur-Rahaman -Resume.pdf"><p>Resume<ion-icon name="download-outline"></ion-icon></p></a>
+            <p onclick="scrollToTop()" class="nav-link home">Home</p>
+            <p class="nav-link about">About</p>
+            <p class="nav-link skills">Skills</p>
+            <p class="nav-link projects">Projects</p>
+            <p class="">Statistics</p>
+            <p class="nav-link contact">Contact</p>
+            <a href="./Ashiqur-Rahaman -Resume.pdf" download="Ashiqur-Rahaman -Resume.pdf" class="nav-link resume"><p>Resume<ion-icon name="download-outline"></ion-icon></p></a>
             
             <!-- <div>
                 <button id="toggle-mode"></button>
             </div> -->
         </div>
     </nav>
-    <header>
+    <!-- 9864745710 -->
+    <header id="home">
         <div>
-            <img src="./images/Screenshot 2023-04-06 100403.png" alt="">
+            <img src="./images/Screenshot 2023-04-06 100403.png" alt="" class="home-img">
         </div>
         <div>
             <h1>Hi! I Am <br><span>Ashiqur Rahaman</span></h1>
             <p>As a developer, I have a track record of adapting to various work environments, whether working independently or collaboratively. With a strong commitment to delivering top-notch results within tight deadlines, I am seeking an exciting opportunity at a leading organization such as DreamVersion to further develop my skills and knowledge as a developer.</p>
         </div>
     </header>
-    <div class="about">
-        <div>
-            <div class="left">
-                <h3><ion-icon name="mail-outline"></ion-icon> ashiqur999999@gmail.com</h3>
-                <h3><ion-icon name="call-outline"></ion-icon> +91 8697835401</h3>
-                <h3><ion-icon name="location-outline"></ion-icon>Malda,West Bengal <br>India</h3>
-                <div id="social">
-                    <a href="https://www.linkedin.com/in/ashiqur-rahaman-76b010255/"><h4>Linkedin<ion-icon name="logo-linkedin"></ion-icon></h4></a>
-                    <a href="https://github.com/AshiqurRahaman02"><h4>Github<ion-icon name="logo-github"></ion-icon></h4></a>
-                </div>
-                <div class="download">
-                    <a href="./Ashiqur-Rahaman -Resume.pdf" download="Ashiqur-Rahaman -Resume.pdf">Resume<ion-icon name="download-outline"></ion-icon></a>
-                </div>
+    <div id="about" class="about section">
+        <div class="left hidden hidden">
+            <h1>About Me</h1>
+            <div>
+                <h3 id="contact-email"><ion-icon name="mail-outline"></ion-icon> ashiqur999999@gmail.com</h3>
+            <h3 id="contact-phone"><ion-icon name="call-outline"></ion-icon> +91 8697835401</h3>
+            <h3><ion-icon name="location-outline"></ion-icon>Malda,West Bengal <br>India</h3>
+            </div>
+            <div id="social">
+                <a href="https://www.linkedin.com/in/ashiqur-rahaman-76b010255/" id="contact-linkedin"><h4>Linkedin<ion-icon name="logo-linkedin"></ion-icon></h4></a>
+                <a href="https://github.com/AshiqurRahaman02"  id="contact-github"><h4>Github<ion-icon name="logo-github"></ion-icon></h4></a>
+            </div>
+            <div class="download">
+                <a href="./Ashiqur-Rahaman -Resume.pdf" download="Ashiqur-Rahaman -Resume.pdf">Resume<ion-icon name="download-outline"></ion-icon></a>
             </div>
         </div>
-        <div class="honeycomb">
-            <img src="./images/circle image.png" alt="">
-        </div>
-        
+        <div class="honeycomb hidden hidden2">
+            <img src="./images/new.png" alt="">
+        </div> 
     </div>
-    <div class="skills">
-        
+    <div id="skills">
+        <div id="teckStacks"></div>
+        <div id="tools"></div>
     </div>
-    <div class="projects"></div>
-    <div class="statistics"></div>
-    <div class="contact"></div>
+    <div id="projects"></div>
+    <div id="statistics"></div>
+    <div id="contact"></div>
 </body>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

@@ -35,6 +35,9 @@ nav>div:nth-child(2){
     justify-content: space-between;
     align-items: center;
 }
+nav>div:nth-child(2) p{
+  cursor: pointer;
+}
 
 header{
   display: flex;
@@ -59,53 +62,47 @@ header p{
 }
 
 
-.about{
+#about{
   width: 90%;
   margin: auto;
   margin-top: 10%;
+  margin-bottom: 1%;
   display: flex;
   justify-content: space-between;
 }
-.about ion-icon{
+#about>div{
+  width: 45%;
+}
+#about ion-icon{
   position: relative;
   top: 5px;
   width: 40px;
   height: 20px;
 }
-.honeycomb {
-  width: 40%;
-  height: 600px;
-  background-color: transparent;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
+
+
 .honeycomb>img{
-  width: 120%;
-  margin-left: -52px;
-  margin-top: -50px;
+  width: 100%;
+  border-radius: 50%;
+  border: #00fff2 2px solid;
 }
 
-.about>div:nth-child(1){
-  width: 40%;
-  height: 600px;
-  background-color: #00fff2;
-  clip-path: polygon( 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%,50% 0%);
-}
+
 .left{
   display: flex;
-  padding-top: 150px;
   flex-direction: column;
   text-align: center;
-  width: 98%;
-  margin: auto;
-  height: 440px;
-  margin-top: 5px;
-  background-color: #000000;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  border-radius: 50%;
+  border: #00fff2 2px solid;
+  justify-content: center;
+  align-items: center;
+}
+.left>h1{
+  font-size: 60px;
 }
 #social{
   display: flex;
   width: 50%;
-  margin: auto;
   margin-top: 0px;
   justify-content: space-between;
 }
@@ -118,13 +115,32 @@ header p{
 .left a:hover{
   box-shadow: rgb(68, 255, 246) 0px 7px 29px 0px;
 }
-
 .download a{
-  width: 20%;
   display: block;
   margin: auto;
   border: #00fff2 .5px solid;
   padding: 5px;
   border-radius: 1px;
-  margin-top: -150px;
+  margin-top:30px;
 }
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(50%);
+  transition: all 1s;
+}
+.hidden2{
+  opacity: 1;
+  transform: translateX(-80%);
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+/* @media(prefers-reduce-motion) {
+  .hidden{
+    transition: none;
+  }
+} */
