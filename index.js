@@ -8,7 +8,13 @@ function scrollToTop() {
 
 document.querySelector('.about').addEventListener('click', () => {
   window.scrollTo({
-    top: 800,
+    top: 700,
+    behavior: "smooth"
+  });
+})
+document.querySelector('.skills').addEventListener('click', () => {
+  window.scrollTo({
+    top: 1500,
     behavior: "smooth"
   });
 })
@@ -27,3 +33,4 @@ const observer = new IntersectionObserver((entries)=>{
 const hiddenElements=document.querySelectorAll(".hidden")
 
 hiddenElements.forEach((el)=> observer.observe(el))
+
