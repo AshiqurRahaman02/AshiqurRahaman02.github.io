@@ -112,7 +112,6 @@ header p{
   border: #00fff2 2px solid;
 }
 
-
 .left{
   display: flex;
   flex-direction: column;
@@ -137,6 +136,9 @@ header p{
   border-radius: 1px;
   margin: 0px;
 }
+#social h4:hover{
+  box-shadow: rgb(68, 255, 246) 0px 7px 29px 0px;
+}
 .left a:hover{
   box-shadow: rgb(68, 255, 246) 0px 7px 29px 0px;
 }
@@ -157,6 +159,14 @@ header p{
 }
 .hidden2{
   opacity: 1;
+  transform: translateX(-80%);
+}
+.hidden3{
+  opacity: 1;
+  transform: translateX(50%);
+}
+.hidden4{
+  opacity: 0;
   transform: translateX(-80%);
 }
 /* @media(prefers-reduce-motion) {
@@ -205,6 +215,50 @@ header p{
 .hiddenDiv{
   filter: blur(10px);
   transform: translateY(-100%);
+}
+
+#projects{
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+#projects>h1{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background: -webkit-linear-gradient(45deg,#afabff, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.project-card{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+.project-card>div{
+  width: 45%;
+}
+.project-card>div>img{
+  width: 100%;
+}
+.project-card>div:nth-child(2){
+  background-color: transparent;
+}
+.project-card>div:nth-child(2) h1,p,a,h4{
+  background-color: transparent; 
+  background: -webkit-linear-gradient(45deg,#afabff, #00ff95 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project-card ion-icon{
+  margin-left: 10px;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  top: 2px;
 }
 
 

@@ -18,6 +18,12 @@ document.querySelector('.skills').addEventListener('click', () => {
     behavior: "smooth"
   });
 })
+document.querySelector('.projects').addEventListener('click', () => {
+  window.scrollTo({
+    top: 2550,
+    behavior: "smooth"
+  });
+})
 
 
 const observer = new IntersectionObserver((entries)=>{
