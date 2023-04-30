@@ -32,7 +32,7 @@ document.querySelector('.statistics').addEventListener('click', () => {
 })
 document.querySelector('.contact').addEventListener('click', () => {
   window.scrollTo({
-    top: 5000,
+    top: 4720,
     behavior: "smooth"
   });
 })
