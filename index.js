@@ -24,6 +24,18 @@ document.querySelector('.projects').addEventListener('click', () => {
     behavior: "smooth"
   });
 })
+document.querySelector('.statistics').addEventListener('click', () => {
+  window.scrollTo({
+    top: 3960,
+    behavior: "smooth"
+  });
+})
+document.querySelector('.contact').addEventListener('click', () => {
+  window.scrollTo({
+    top: 5000,
+    behavior: "smooth"
+  });
+})
 
 
 const observer = new IntersectionObserver((entries)=>{
