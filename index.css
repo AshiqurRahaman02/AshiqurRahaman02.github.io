@@ -6,7 +6,10 @@ body{
     padding: 0px;
     font-family: 'Popins',sans-serif;
     background-color: rgb(18,2,28);
-    padding-top: 100px;
+    margin-top: 100px;
+    border: #00ff95 1px solid;
+    z-index: -5px;
+    /* overflow-x: hidden; */
 }
 ::-webkit-scrollbar{
   visibility: hidden;
@@ -40,6 +43,7 @@ nav{
     margin-top: -100px;
     background-color: rgb(18,2,28);
     position: fixed;
+    z-index: 5px;
 }
 nav>div:nth-child(1)>img{
     width: 50%;
@@ -63,6 +67,13 @@ nav>div:nth-child(2) p{
   color: #ffffff;
   width: 30px;
   height: 50px;
+}
+#sTags{
+  position: absolute;
+  display: none;
+}
+#sTags p{
+  cursor: pointer;
 }
 
 header{
@@ -282,8 +293,9 @@ header p{
   display: flex;
   justify-content: space-between;
 }
-#statistics>img{
+#statistics img{
   width: 70%;
+  margin: auto;
 }
 #contact{
   padding-top: 10%;
@@ -371,44 +383,27 @@ footer>ion-icon{
   height: 50px;
 }
 
-@media (max-width:500px) {
-  nav{
-    position: fixed;
-  }
-  #tags .nav-link{
+
+
+@media (max-width:576px) {
+  #tags{
     display: none;
+  }
+  #sTags{
+    display: block;
   }
   #slider{
     display: block;
-    margin-left: 70px;
   }
-  header>div:nth-child(1){
-    display: none;
-  }
-  #home>div{
-    width: 90%;
-    margin: auto;
-  }
-  #about{
-    flex-direction: column-reverse;
-    width: 100%;
-  }
-  #about>div{
-    width: 80%;
-    margin: auto;
-    margin-top: 10px;
-  }
-  .left>h1{
-    font-size: 50px;
-  }
-  #social{
-    width: 58%;
-    gap: 10px;
-  }
-  .download a{
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
+}
+@media (max-width:768px) and (min-width:577px) {
+
+}
+@media (max-width:992px) and (min-width:769px) {
+  
+}
+@media (max-width:1300px) and (min-width:993px) {
+
 }
 
 .show{

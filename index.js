@@ -1,54 +1,81 @@
-
 function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
+	window.scrollTo({
+		top: 0,
+		behavior: "smooth",
+	});
 }
 
-document.querySelector('.about').addEventListener('click', () => {
-  window.scrollTo({
-    top: 700,
-    behavior: "smooth"
-  });
-})
-document.querySelector('.skills').addEventListener('click', () => {
-  window.scrollTo({
-    top: 1500,
-    behavior: "smooth"
-  });
-})
-document.querySelector('.projects').addEventListener('click', () => {
-  window.scrollTo({
-    top: 2550,
-    behavior: "smooth"
-  });
-})
-document.querySelector('.statistics').addEventListener('click', () => {
-  window.scrollTo({
-    top: 3960,
-    behavior: "smooth"
-  });
-})
-document.querySelector('.contact').addEventListener('click', () => {
-  window.scrollTo({
-    top: 4720,
-    behavior: "smooth"
-  });
-})
+function scrollToAbout() {
+	window.scrollTo({
+		top: 700,
+		behavior: "smooth",
+	});
+}
 
+function scrollToSkills() {
+	window.scrollTo({
+		top: 1500,
+		behavior: "smooth",
+	});
+}
+function scrollToProjects() {
+	window.scrollTo({
+		top: 2550,
+		behavior: "smooth",
+	});
+}
+function scrollToStatistics() {
+	window.scrollTo({
+		top: 3960,
+		behavior: "smooth",
+	});
+}
+function scrollToContact() {
+	window.scrollTo({
+		top: 5320,
+		behavior: "smooth",
+	});
+}
 
-const observer = new IntersectionObserver((entries)=>{
-  entries.forEach((entry)=>{
-    console.log(entry.isIntersecting)
-    if(entry.isIntersecting){
-      entry.target.classList.add('show')
-    }else{
-      entry.target.classList.remove('show')
-    }
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			entry.target.classList.add("show");
+		} else {
+			entry.target.classList.remove("show");
+		}
+	});
+});
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
+
+const sendEmail = document.querySelector("#sendEmail");
+const name = document.querySelector("#name");
+const email = document.querySelector("#email");
+const number = document.querySelector("#number");
+const text = document.querySelector("#text");
+sendEmail.addEventListener("click", (e) => {
+	e.preventDefault();
+
+  let details={
+    from:email.value,
+    to: "ashiqur999999@gmail.com",
+    subject: "Email from Portfolio",
+    text: `${name.value} \n ${number.value} \n ${text.value} \n from ${email.value}` 
+  }
+  // console.log(details);
+  fetch("https://tiny-lime-jay-coat.cyclic.app/send-email", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(details),
   })
-})
-const hiddenElements=document.querySelectorAll(".hidden")
-
-hiddenElements.forEach((el)=> observer.observe(el))
-
+  .then(res=>res.json())
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+});

@@ -1,162 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashiqur-Rahaman</title>
-    <link rel="stylesheet" href="./index.css">
-    <link  rel="icon" href="./images/new profile.png" type="image/x-icon">
-</head>
-<body class="dark-mode">
-    <nav id="nav-menu">
-        <div>
-            <img src="./images/logo2-removebg.png" alt="" onclick="scrollToTop()">
-        </div>
-        <div id="tags">
-            <p onclick="scrollToTop()" class="nav-link home">Home</p>
-            <p class="nav-link about">About</p>
-            <p class="nav-link skills">Skills</p>
-            <p class="nav-link projects">Projects</p>
-            <p class="nav-link statistics">Statistics</p>
-            <p class="nav-link contact">Contact</p>
-            <a href="./Ashiqur-Rahaman -Resume.pdf" download="Ashiqur-Rahaman -Resume.pdf" class="nav-link resume" id="resume-button-1" id="resume-link-1"
-            ><p>Resume<ion-icon name="download-outline"></ion-icon></p></a>
-            <button id="slider"><ion-icon name="menu-outline"></ion-icon></button>
-        </div>
-    </nav>
-    <header id="home">
-        <div>
-            <img src="/images/header-image.png" alt="" class="home-img">
-        </div>
-        <div>
-            <h1  id="user-detail-name">Hi! I Am <br><span>Ashiqur Rahaman</span></h1>
-            <p id="user-detail-intro">As a developer, I have a track record of adapting to various work environments, whether working independently or collaboratively. With a strong commitment to delivering top-notch results within tight deadlines, I am seeking an exciting opportunity at a leading organization such as DreamVersion to further develop my skills and knowledge as a developer.</p>
-        </div>
-    </header>
-    <div id="about" class="about section">
-        <div class="left hidden ">
-            <h1>About Me</h1>
-            <div>
-                <h3 id="contact-email"><ion-icon name="mail-outline"></ion-icon> ashiqur999999@gmail.com</h3>
-            <h3 id="contact-phone"><ion-icon name="call-outline"></ion-icon> +91 8697835401</h3>
-            <h3><ion-icon name="location-outline"></ion-icon>Malda,West Bengal <br>India</h3>
-            </div>
-            <div id="social">
-                <a href="https://www.linkedin.com/in/ashiqur-rahaman-76b010255/" id="contact-linkedin"><h4>Linkedin<ion-icon name="logo-linkedin"></ion-icon></h4></a>
-                <a href="https://github.com/AshiqurRahaman02"  id="contact-github"><h4>Github<ion-icon name="logo-github"></ion-icon></h4></a>
-            </div>
-            <div class="download">
-                <a href="./Ashiqur-Rahaman -Resume.pdf" download="Ashiqur-Rahaman -Resume.pdf" id="resume-button-2" id="resume-link-2"
-                >Resume<ion-icon name="download-outline"></ion-icon></a>
-            </div>
-        </div>
-        <div class="honeycomb hidden hidden2">
-            <img src="./images/new profile.png" alt="">
-        </div> 
-    </div>
-    <div id="skills">
-        <h1>Skills & Tech-Stacks</h1>
-        <div id="teckStacks">
-            <div class="skills-card hidden hiddenDiv"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="" class="skills-card-img"><div class="skills-card-name">Node JS</div></div>
-            <div class="skills-card hidden hiddenDiv"><img src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png" alt="" class="skills-card-img"><div class="skills-card-name">Express.js</div></div>
-            <div class="skills-card hidden hiddenDiv"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="" class="skills-card-img"><div class="skills-card-name">Mongo DB</div></div>
-            <div class="skills-card hidden hiddenDiv"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="" class="skills-card-img"><div class="skills-card-name">JavaScript</div></div>
-            <div class="skills-card hidden hiddenDiv"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="" class="skills-card-img"><div class="skills-card-name">HTML</div></div>
-            <div class="skills-card hidden hiddenDiv"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="" class="skills-card-img"><div class="skills-card-name">CSS</div></div>
-            <!-- <div class="skills-card hidden"><img src="" alt="" class="skills-card-img"><div class="skills-card-name"></div></div> -->
-            <!-- <div class="skills-card hidden"><img src="" alt="" class="skills-card-img"><div class="skills-card-name"></div></div> -->
-            <!-- <div class="skills-card hidden"><img src="" alt="" class="skills-card-img"><div class="skills-card-name"></div></div> -->
-            <!-- <div class="skills-card hidden"><img src="" alt="" class="skills-card-img"><div class="skills-card-name"></div></div> -->
-        </div>
-        <h1>Tools</h1>
-        <div id="tools">
-            <div class="skills-card hidden hiddenDiv"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="" class="skills-card-img"><div class="skills-card-name">VS Code</div></div>
-            <div class="skills-card hidden hiddenDiv"><img src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png" alt="" class="skills-card-img"><div class="skills-card-name">GitHub</div></div>
-            <div class="skills-card hidden hiddenDiv"><img src="https://github.com/npm/logos/blob/master/npm%20square/n-large.png?raw=true" alt="" class="skills-card-img"><div class="skills-card-name">NPM</div></div>
-        </div>
-    </div>
-    <div id="projects">
-        <h1>Projects</h1>
-        <div class="project-card">
-            <div class="hidden hidden3">
-                <img src="./images/sava.png" alt="">
-            </div>
-            <div class="hidden hidden4">
-                <h1 class="project-title">SAVA</h1>
-                <p class="project-description">SAVA is your ultimate fashion destination for trendy and stylish clothing and accessories. Our latest collections are inspired by the hottest fashion trends of the season, ensuring that you stay ahead of the fashion game. We understand that fashion is an expression of your individuality, and that's why we offer a diverse range of products that cater to different tastes and styles.</p>
-                <h3 class="project-tech-stack">Tech-Stacks:- <span>Node JS, </span> <span>JavaScript,</span> <span>HTML,</span>  <span>CSS</span></h3>
-                <div id="social" class="hidden">
-                    <a href="https://sava-india.netlify.app/"  class="project-deployed-link"><h4>Preview<ion-icon name="open-outline"></ion-icon></h4></a>
-                    <a href="https://github.com/AshiqurRahaman02/half-top-1982"  class="project-github-link"><h4>Github<ion-icon name="logo-github"></ion-icon></h4></a>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <div class="hidden hidden3">
-                <h1 class="project-title">Quickdeals</h1>
-                <p class="project-description">Qickdeals website is clone of the snapdeal website which is indian Ecommerce website. Our latest products are inspired by the top products in the industry, ensuring that you'll find top-notch products here. The products offered at Quickdeals are carefully curated to ensure they meet the highest standards in the industry, guaranteeing that you'll always find quality products here.</p>
-                <h3 class="project-tech-stack">Tech-Stacks:- <span>JavaScript,</span> <span>HTML,</span>  <span>CSS</span></h3>
-                <div id="social" class="hidden">
-                    <a href="https://tranquil-pegasus-5a340e.netlify.app/"  class="project-deployed-link"><h4>Preview<ion-icon name="open-outline"></ion-icon></h4></a>
-                    <a href="https://github.com/Nandha2403/nostalgic-nut-6532"  class="project-github-link"><h4>Github<ion-icon name="logo-github"></ion-icon></h4></a>
-                </div>
-            </div>
-            <div class="hidden hidden2">
-                <img src="./images/quickdeal.png" alt="">
-            </div>
-        </div>
-        <div class="project-card">
-            <div class="hidden hidden3">
-                <img src="./images/mamababy.png" alt="">
-            </div>
-            <div class="hidden hidden4">
-                <h1 class="project-title">MamaBaby</h1>
-                <p class="project-description">Welcome to our child fashion website, where we bring you the latest and trendiest fashion for your little ones. We understand that children's fashion is not just about dressing up, but also about comfort and functionality. That's why we offer a wide range of high-quality and comfortable clothing, shoes, and accessories for your kids, all at affordable prices. Whether you're looking for casual wear, formal wear, or anything in between, we've got you covered. Shop with us and let your child's unique style shine through.</p>
-                <h3 class="project-tech-stack">Tech-Stacks:- <span>JavaScript,</span> <span>HTML,</span>  <span>CSS</span></h3>
-                <div id="social" class="hidden">
-                    <a href="https://dashing-hummingbird-6ae958.netlify.app/"  class="project-deployed-link"><h4>Preview<ion-icon name="open-outline"></ion-icon></h4></a>
-                    <a href="https://github.com/AshiqurRahaman02/CW-Project-"  class="project-github-link"><h4>Github<ion-icon name="logo-github"></ion-icon></h4></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="statistics">
-        <h1>GitHub Statistics</h1>
-        <div>
-            <img src="https://github-readme-streak-stats.herokuapp.com?user=AshiqurRahaman02&theme=transparent&hide_border=true" alt="" id="github-streak-stats" class="hidden">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshiqurRahaman02&theme=outrun" alt="" id="github-top-langs">
-            <img src="https://github-readme-stats.vercel.app/api?username=AshiqurRahaman02&count_private=true" alt="" id="github-stats-card"class="hidden hidden2" >
-        </div>
-        <h1>GitHub Activity</h1>
-        <img src="https://ghchart.rshah.org/AshiqurRahaman02" alt="" class="react-activity-calendar hidden hiddenDiv">
-    </div>
-    <div id="contact">
-        <div>
-            <h1>Contact Me!</h1>
-            <h3><b>Talent wins games, but <br> teamwork and intelligence win championships.</b></h3>
-            <p>Fill the form to connect if any query</p>
-            <p>+91 8697835401</p>
-            <p>ashiqur999999@gmail.com</p>
-            <div>
-                <a href="https://www.linkedin.com/in/ashiqur-rahaman-76b010255/" id="contact-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href="https://github.com/AshiqurRahaman02"  id="contact-github"><ion-icon name="logo-github"></ion-icon></a>
-            </div>
-        </div>
-        <div>
-            <input type="text" placeholder="Your Name" name="Name">
-            <input type="email" placeholder="Your Email Address" name="email">
-            <input type="number" placeholder="Your Mobile Number">
-            <input type="text" placeholder="How Can I Help You">
-            <button>Send Message</button>
-        </div>
-    </div>
-    <footer>
-        <p>© Created by Ashiqur Rahaman 2023 All Rights Reserved.</p>
-        <ion-icon name="arrow-up-circle-outline" onclick="scrollToTop()"></ion-icon>
-    </footer>
-</body>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ashiqur-Rahaman</title>
+		<link rel="stylesheet" href="./index.css" />
+		<link rel="icon" href="./images/new profile.png" type="image/x-icon" />
+	</head>
+	<body class="dark-mode">
+		<nav id="nav-menu">
+			<div>
+				<img
+					src="./images/logo2-removebg.png"
+					alt=""
+					onclick="scrollToTop()"
+				/>
+			</div>
+			<div id="tags">
+				<p onclick="scrollToTop()" class="nav-link home">Home</p>
+				<p class="nav-link about" onclick="scrollToAbout()">About</p>
+				<p class="nav-link skills" onclick="scrollToSkills()">Skills</p>
+				<p class="nav-link projects" onclick="scrollToProjects()">
+					Projects
+				</p>
+				<p class="nav-link statistics" onclick="scrollToStatistics()">
+					Statistics
+				</p>
+				<p class="nav-link contact" onclick="scrollToContact()">Contact</p>
+				<a
+					href="./Ashiqur-Rahaman -Resume.pdf"
+					download="Ashiqur-Rahaman -Resume.pdf"
+					class="nav-link resume"
+					id="resume-button-1"
+					id="resume-link-1"
+					><p>Resume<ion-icon name="download-outline"></ion-icon></p
+				></a>
+				<button id="slider">
+					<ion-icon name="menu-outline"></ion-icon>
+				</button>
+			</div>
+		</nav>
+		<div id="sTags">
+			<p onclick="scrollToTop()" class="nav-link home">Home</p>
+			<p class="nav-link about" onclick="scrollToAbout()">About</p>
+			<p class="nav-link skills" onclick="scrollToSkills()">Skills</p>
+			<p class="nav-link projects" onclick="scrollToProjects()">Projects</p>
+			<p class="nav-link statistics" onclick="scrollToStatistics()">
+				Statistics
+			</p>
+			<p class="nav-link contact" onclick="scrollToContact()">Contact</p>
+			<a
+				href="./Ashiqur-Rahaman -Resume.pdf"
+				download="Ashiqur-Rahaman -Resume.pdf"
+				class="nav-link resume"
+				id="resume-button-1"
+				id="resume-link-1"
+				><p>Resume<ion-icon name="download-outline"></ion-icon></p
+			></a>
+			<button id="slider"><ion-icon name="menu-outline"></ion-icon></button>
+		</div>
+		<header id="home">
+			<div>
+				<img src="/images/header-image.png" alt="" class="home-img" />
+			</div>
+			<div>
+				<h1 id="user-detail-name">
+					Hi! I Am <br /><span>Ashiqur Rahaman</span>
+				</h1>
+				<p id="user-detail-intro">
+					As a developer, I have a track record of adapting to various work
+					environments, whether working independently or collaboratively.
+					With a strong commitment to delivering top-notch results within
+					tight deadlines, I am seeking an exciting opportunity at a
+					leading organization such as DreamVersion to further develop my
+					skills and knowledge as a developer.
+				</p>
+			</div>
+		</header>
+		<div id="about" class="about section">
+			<div class="left hidden">
+				<h1>About Me</h1>
+				<div>
+					<h3 id="contact-email">
+						<ion-icon name="mail-outline"></ion-icon>
+						ashiqur999999@gmail.com
+					</h3>
+					<h3 id="contact-phone">
+						<ion-icon name="call-outline"></ion-icon> +91 8697835401
+					</h3>
+					<h3>
+						<ion-icon name="location-outline"></ion-icon>Malda,West Bengal
+						<br />India
+					</h3>
+				</div>
+				<div id="social">
+					<a
+						href="https://www.linkedin.com/in/ashiqur-rahaman-76b010255/"
+						id="contact-linkedin"
+						target="_blank"
+						><h4>Linkedin<ion-icon name="logo-linkedin"></ion-icon></h4
+					></a>
+					<a
+						href="https://github.com/AshiqurRahaman02"
+						id="contact-github"
+						target="_blank"
+						><h4>Github<ion-icon name="logo-github"></ion-icon></h4
+					></a>
+				</div>
+				<div class="download">
+					<a
+						href="./Ashiqur-Rahaman -Resume.pdf"
+						download="Ashiqur-Rahaman -Resume.pdf"
+						id="resume-button-2"
+						id="resume-link-2"
+						target="_blank"
+						>Resume<ion-icon name="download-outline"></ion-icon
+					></a>
+				</div>
+			</div>
+			<div class="honeycomb hidden hidden2">
+				<img src="./images/new profile.png" alt="" />
+			</div>
+		</div>
+		<div id="skills">
+			<h1>Skills & Tech-Stacks</h1>
+			<div id="teckStacks">
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">Node JS</div>
+				</div>
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">Express.js</div>
+				</div>
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">Mongo DB</div>
+				</div>
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">JavaScript</div>
+				</div>
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">HTML</div>
+				</div>
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">CSS</div>
+				</div>
+				<!-- <div class="skills-card hidden"><img src="" alt="" class="skills-card-img"><div class="skills-card-name"></div></div> -->
+				<!-- <div class="skills-card hidden"><img src="" alt="" class="skills-card-img"><div class="skills-card-name"></div></div> -->
+				<!-- <div class="skills-card hidden"><img src="" alt="" class="skills-card-img"><div class="skills-card-name"></div></div> -->
+				<!-- <div class="skills-card hidden"><img src="" alt="" class="skills-card-img"><div class="skills-card-name"></div></div> -->
+			</div>
+			<h1>Tools</h1>
+			<div id="tools">
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">VS Code</div>
+				</div>
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">GitHub</div>
+				</div>
+				<div class="skills-card hidden hiddenDiv">
+					<img
+						src="https://github.com/npm/logos/blob/master/npm%20square/n-large.png?raw=true"
+						alt=""
+						class="skills-card-img"
+					/>
+					<div class="skills-card-name">NPM</div>
+				</div>
+			</div>
+		</div>
+		<div id="projects">
+			<h1>Projects</h1>
+			<div class="project-card">
+				<div class="hidden hidden3">
+					<img src="./images/textmate.png" alt="" />
+				</div>
+				<div class="hidden hidden4">
+					<h1 class="project-title">TEXTMATE</h1>
+					<p class="project-description">
+						TextMate is an advanced text editor that offers an exceptional
+						feature: real-time collaboration. This functionality
+						revolutionizes the way remote or distributed teams work
+						together on documents, enabling seamless collaboration
+						regardless of their physical location. With the real-time text
+						editor, users can effortlessly collaborate and contribute to a
+						document simultaneously, fostering efficient teamwork.
+					</p>
+					<h3 class="project-tech-stack">
+						Tech-Stacks:- <span>Node JS |</span> <span>Socket |</span>
+						<span>JavaScript |</span> <span>HTML |</span> <span>CSS</span>
+					</h3>
+					<div id="social" class="hidden">
+						<a
+							href="https://textmate-india.netlify.app/"
+							class="project-deployed-link"
+							target="_blank"
+							><h4>Preview<ion-icon name="open-outline"></ion-icon></h4
+						></a>
+						<a
+							href="https://github.com/Anshita808/TextMate"
+							class="project-github-link"
+							target="_blank"
+							><h4>Github<ion-icon name="logo-github"></ion-icon></h4
+						></a>
+					</div>
+				</div>
+			</div>
+			<div class="project-card">
+				<div class="hidden hidden3">
+					<img src="./images/sava.png" alt="" />
+				</div>
+				<div class="hidden hidden4">
+					<h1 class="project-title">SAVA</h1>
+					<p class="project-description">
+						SAVA is your ultimate fashion destination for trendy and
+						stylish clothing and accessories. Our latest collections are
+						inspired by the hottest fashion trends of the season, ensuring
+						that you stay ahead of the fashion game. We understand that
+						fashion is an expression of your individuality, and that's why
+						we offer a diverse range of products that cater to different
+						tastes and styles.
+					</p>
+					<h3 class="project-tech-stack">
+						Tech-Stacks:- <span>Node JS |</span>
+						<span>JavaScript |</span> <span>HTML |</span> <span>CSS</span>
+					</h3>
+					<div id="social" class="hidden">
+						<a
+							href="https://sava-india.netlify.app/"
+							class="project-deployed-link"
+							target="_blank"
+							><h4>Preview<ion-icon name="open-outline"></ion-icon></h4
+						></a>
+						<a
+							href="https://github.com/AshiqurRahaman02/half-top-1982"
+							class="project-github-link"
+							target="_blank"
+							><h4>Github<ion-icon name="logo-github"></ion-icon></h4
+						></a>
+					</div>
+				</div>
+			</div>
+			<div class="project-card">
+				<div class="hidden hidden3">
+					<h1 class="project-title">Quickdeals</h1>
+					<p class="project-description">
+						Qickdeals website is clone of the snapdeal website which is
+						indian Ecommerce website. Our latest products are inspired by
+						the top products in the industry, ensuring that you'll find
+						top-notch products here. The products offered at Quickdeals
+						are carefully curated to ensure they meet the highest
+						standards in the industry, guaranteeing that you'll always
+						find quality products here.
+					</p>
+					<h3 class="project-tech-stack">
+						Tech-Stacks:- <span>JavaScript |</span> <span>HTML |</span>
+						<span>CSS</span>
+					</h3>
+					<div id="social" class="hidden">
+						<a
+							href="https://tranquil-pegasus-5a340e.netlify.app/"
+							class="project-deployed-link"
+							target="_blank"
+							><h4>Preview<ion-icon name="open-outline"></ion-icon></h4
+						></a>
+						<a
+							href="https://github.com/Nandha2403/nostalgic-nut-6532"
+							class="project-github-link"
+							target="_blank"
+							><h4>Github<ion-icon name="logo-github"></ion-icon></h4
+						></a>
+					</div>
+				</div>
+				<div class="hidden hidden2">
+					<img src="./images/quickdeal.png" alt="" />
+				</div>
+			</div>
+			<div class="project-card">
+				<div class="hidden hidden3">
+					<img src="./images/mamababy.png" alt="" />
+				</div>
+				<div class="hidden hidden4">
+					<h1 class="project-title">MamaBaby</h1>
+					<p class="project-description">
+						Welcome to our child fashion website, where we bring you the
+						latest and trendiest fashion for your little ones. We
+						understand that children's fashion is not just about dressing
+						up, but also about comfort and functionality. That's why we
+						offer a wide range of high-quality and comfortable clothing,
+						shoes, and accessories for your kids, all at affordable
+						prices. Whether you're looking for casual wear, formal wear,
+						or anything in between, we've got you covered. Shop with us
+						and let your child's unique style shine through.
+					</p>
+					<h3 class="project-tech-stack">
+						Tech-Stacks:- <span>JavaScript |</span> <span>HTML |</span>
+						<span>CSS</span>
+					</h3>
+					<div id="social" class="hidden">
+						<a
+							href="https://dashing-hummingbird-6ae958.netlify.app/"
+							class="project-deployed-link"
+							target="_blank"
+							><h4>Preview<ion-icon name="open-outline"></ion-icon></h4
+						></a>
+						<a
+							href="https://github.com/AshiqurRahaman02/CW-Project-"
+							class="project-github-link"
+							target="_blank"
+							><h4>Github<ion-icon name="logo-github"></ion-icon></h4
+						></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="statistics">
+			<h1>GitHub Statistics</h1>
+			<div style="display: flex; flex-direction: column; width: 50%">
+				<img
+					src="https://github-readme-streak-stats.herokuapp.com?user=AshiqurRahaman02&theme=transparent&hide_border=true"
+					alt=""
+					id="github-streak-stats"
+					class="hidden hidden2"
+				/>
+				<img
+					src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshiqurRahaman02&theme=outrun"
+					alt=""
+					id="github-top-langs"
+					class="hidden"
+				/>
+				<img
+					src="https://github-readme-stats.vercel.app/api?username=AshiqurRahaman02&count_private=true"
+					alt=""
+					id="github-stats-card"
+					class="hidden hidden2"
+				/>
+			</div>
+			<h1>GitHub Activity</h1>
+			<img
+				src="https://ghchart.rshah.org/AshiqurRahaman02"
+				alt=""
+				class="react-activity-calendar hidden hiddenDiv"
+			/>
+		</div>
+		<div id="contact">
+			<div>
+				<h1>Contact Me!</h1>
+				<h3>
+					<b
+						>Talent wins games, but <br />
+						teamwork and intelligence win championships.</b
+					>
+				</h3>
+				<p>Fill the form to connect if any query</p>
+				<p>+91 8697835401</p>
+				<p>ashiqur999999@gmail.com</p>
+				<div>
+					<a
+						href="https://www.linkedin.com/in/ashiqur-rahaman-76b010255/"
+						id="contact-linkedin"
+						><ion-icon name="logo-linkedin"></ion-icon
+					></a>
+					<a href="https://github.com/AshiqurRahaman02" id="contact-github"
+						><ion-icon name="logo-github"></ion-icon
+					></a>
+				</div>
+			</div>
+			<div>
+				<input type="text" placeholder="Your Name" name="Name" id="name"/>
+				<input type="email" placeholder="Your Email Address" name="email" id="email"/>
+				<input type="number" placeholder="Your Mobile Number" id="number"/>
+				<input type="text" placeholder="How Can I Help You" id="text"/>
+				<button id="sendEmail">Send Message</button>
+			</div>
+		</div>
+		<footer>
+			<p>© Created by Ashiqur Rahaman 2023 All Rights Reserved.</p>
+			<ion-icon
+				name="arrow-up-circle-outline"
+				onclick="scrollToTop()"
+			></ion-icon>
+		</footer>
+	</body>
+	<script
+		type="module"
+		src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+	></script>
+	<script
+		nomodule
+		src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+	></script>
 </html>
 <script src="./index.js"></script>
