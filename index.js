@@ -26,13 +26,13 @@ function scrollToProjects() {
 }
 function scrollToStatistics() {
 	window.scrollTo({
-		top: 3960,
+		top: 4350,
 		behavior: "smooth",
 	});
 }
 function scrollToContact() {
 	window.scrollTo({
-		top: 5320,
+		top: 5700,
 		behavior: "smooth",
 	});
 }
@@ -79,3 +79,20 @@ sendEmail.addEventListener("click", (e) => {
     console.log(err);
   });
 });
+
+const slider = document.querySelector("#slider");
+const tags = document.querySelector("#sTags")
+slider.addEventListener("click",() => {
+  const computedStyle = window.getComputedStyle(slider);
+  const rotation = computedStyle.getPropertyValue('rotate');
+
+  
+
+  if(rotation == "180deg"){
+    slider.style.rotate = "90deg"
+    tags.style.visibility = "visible"
+  }else{
+    slider.style.rotate = "180deg"
+    tags.style.visibility = "hidden"
+  }
+})

@@ -7,7 +7,7 @@ body{
     font-family: 'Popins',sans-serif;
     background-color: rgb(18,2,28);
     margin-top: 100px;
-    border: #00ff95 1px solid;
+    /* border: #00ff95 1px solid; */
     z-index: -5px;
     /* overflow-x: hidden; */
 }
@@ -60,7 +60,7 @@ nav>div:nth-child(2) p{
 }
 #slider{
   border: 0px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(18,2,28);
   display: none;
 }
 #slider ion-icon{
@@ -102,9 +102,10 @@ header p{
 
 #about{
   width: 90%;
-  margin: auto;
-  padding-top: 10%;
-  padding-bottom: 1%;
+  /* margin: auto; */
+  /* padding-top: 10%; */
+  padding: 10% 5% 1% 5%;
+  /* padding-bottom: 1%; */
   display: flex;
   justify-content: space-between;
 }
@@ -386,14 +387,106 @@ footer>ion-icon{
 
 
 @media (max-width:576px) {
-  #tags{
+  body{
+    margin: 0px 5px;
+    margin-top: 100px;
+  }
+  nav>div:nth-child(2){
     display: none;
   }
   #sTags{
     display: block;
+    width: 100%;
+    font-size: 25px;
+    visibility: hidden;
   }
   #slider{
     display: block;
+    position: fixed;
+    top: 2%;
+    left: 500px;
+    rotate: 180deg;
+  }
+
+  header{
+    flex-direction: column;
+  }
+  header>div{
+    width: 100%;
+    margin: auto;
+  }
+  header>div:nth-child(1)>img{
+    width: 50%;
+    margin: 0px 25%;
+  }
+  header h1,p{
+    text-align: center;
+  }
+  header h1 span{
+    font-size: 60px;
+  }
+
+  #about{
+    flex-direction: column;
+  }
+  #about>div{
+    width: 100%;
+  }
+  .honeycomb>img{
+    margin-top: 10px;
+  }
+  .left{
+    height: 500px;
+  }
+
+  #skills>div{
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 0%;
+  }
+
+  .project-card{
+    flex-direction: column;
+  }
+  .bottom{
+    flex-direction: column-reverse;
+  }
+  .project-card>div{
+    width: 100%;
+  }
+  .project-description{
+    /* display: none; */
+  }
+  .project-title{
+    margin: 0px;
+  }
+
+  #statistics>div{
+    width: 100%;
+  }
+  #statistics img{
+    width: 100%;
+    margin: auto;
+  }
+
+  #contact{
+    flex-direction: column;
+    height: max-content;
+  }
+  #contact>div{
+    width: 100%;
+  }
+  #contact p{
+    text-align: right;
+    margin-right: 25%;
+  }
+
+  footer{
+    width: 100%;
+    padding: 0px;
+  }
+  footer>ion-icon{
+    position: relative;
+    right: 50px;
   }
 }
 @media (max-width:768px) and (min-width:577px) {
