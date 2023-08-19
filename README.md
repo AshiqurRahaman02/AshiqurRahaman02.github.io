@@ -8,3 +8,7 @@
 Hello! My name is Ashiqur Rahaman and I am a Full Stack Node Developer, passionate about building digital products that improve everyday experience for people. I love to work on exciting projects that test what I've learned. I am working with NODE stack and programming languages like JavaScript for web development and Backend Developer. Looking forward to some exciting and challenging opportunities.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<p align="center" color:"red">
+     
+</p>
