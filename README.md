@@ -20,4 +20,4 @@ Hello! My name is Ashiqur Rahaman and I am a Full Stack Node Developer, passiona
 
 - 🔭 I’m currently pursuing **Full Stack Node Development**
 
-
+- 🌱 I’m currently learning **NODE stack**
