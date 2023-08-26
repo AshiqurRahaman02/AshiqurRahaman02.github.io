@@ -25,3 +25,4 @@ sharing)**
 
 - 🌱 I’m currently learning **NODE stack**
 
+- 👯 I’m looking to collaborate on **[LinkedIn](https://www.linkedin.com/in/ashiqur-rahaman-76b010255/)**
