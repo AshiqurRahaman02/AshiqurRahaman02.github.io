@@ -33,3 +33,6 @@ Hello! My name is Ashiqur Rahaman and I am a Full Stack Node Developer, passiona
 - ⚡ Fun Fact: Imagination is more important than knowledge
 
 - 💬 Have a look at my [Portfolio](https://ashiqurrahaman02.github.io/)
+
+
+<h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="85px" marginBottom="4px"> </h2>
