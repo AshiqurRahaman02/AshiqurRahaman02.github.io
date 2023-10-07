@@ -43,3 +43,166 @@ Hello! My name is Ashiqur Rahaman and I am a Full Stack Node Developer, passiona
 [![!PortFolio](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://ashiqurrahaman02.github.io/)
 
 <h2 align="left">⚡ Tech Stack</h2>
+<table align="center">
+  <tbody>
+    <tr valign="top">
+      <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://www.w3.org/html/">
+          <span>HTML5</span><br /><br />
+          <img
+            height="64px"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+          />
+        </a>
+      </td>
+        <td width="25%" align="center">
+        <a href="http://www.w3.org/TR/CSS/">
+          <span>CSS</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/css-3.svg" />
+        </a>
+      </td>
+       <td width="25%" align="center">
+        <a href="http://expressjs.com/">
+          <span>Express</span><br /><br />
+          <img
+            height="64px"
+            src="https://cdn.svgporn.com/logos/express.svg"
+          />
+        </a>
+      </td>
+      <td width="25%" align="center">
+        <a href="http://getbootstrap.com/">
+          <span>Bootstrap</span><br /><br />
+          <img
+            height="64px"
+            src="https://cdn.svgporn.com/logos/bootstrap.svg"
+          />
+        </a>
+      </td>
+    </tr>
+<!--     </tr> -->
+    <tr valign="top">
+      <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://git-scm.com/">
+          <span>Git</span><br /><br />
+          <img
+            height="64px"
+            src="https://cdn.svgporn.com/logos/git-icon.svg"
+          />
+        </a>
+    </td>
+      <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://www.heroku.com/">
+          <span>Heroku</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/heroku-icon.svg" />
+        </a>
+      </td>
+      <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+          <span>JavaScript</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/javascript.svg" />
+        </a>
+      </td>
+      <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://aws.amazon.com/">
+          <span>AWS</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/aws.svg" />
+        </a>
+      </td>
+    </tr>
+    <tr valign="top">
+        <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://www.getpostman.com/">
+          <span>Postman</span><br /><br />
+          <img
+            height="64px"
+            src="https://cdn.svgporn.com/logos/postman-icon.svg"
+          />
+        </a>
+    </td>
+    <td width="25%" align="center">
+      <a style="color: black; font-weight: bold; text-decoration: none;" href="https://www.mongodb.org/">
+        <span>MongoDB</span><br /><br />
+        <img
+          height="64px"
+          src="https://cdn.svgporn.com/logos/mongodb.svg"
+        />
+      </a>
+    </td>
+      <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://www.netlify.com/">
+          <span>Netlify</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/netlify.svg" />
+        </a>
+      </td>
+      <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://nodejs.org/">
+          <span>Node.js</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/nodejs.svg" />
+        </a>
+      </td>
+    </tr>
+<!--     <tr valign="top"> -->
+      <!--       <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://en.wikipedia.org/wiki/Tux_(mascot)">
+          <span>Linux</span><br /><br />
+          <img
+            height="64px"
+            src="https://cdn.svgporn.com/logos/linux-tux.svg"
+          />
+        </a>
+    </td> -->
+      <!--     <td width="25%" align="center">
+      <a style="color: black; font-weight: bold; text-decoration: none;" href="https://www.gnu.org/software/bash/">
+        <span>GNU Bash</span><br /><br />
+        <img
+          height="64px"
+          src="https://cdn.svgporn.com/logos/bash-icon.svg"
+        />
+      </a>
+    </td> -->
+<!--       <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://www.getpostman.com/">
+          <span>Postman</span><br /><br />
+          <img
+            height="64px"
+            src="https://cdn.svgporn.com/logos/postman-icon.svg"
+          />
+        </a>
+    </td> -->
+<!--     <td width="25%" align="center">
+      <a style="color: black; font-weight: bold; text-decoration: none;" href="https://facebook.github.io/react/">
+        <span>React</span><br /><br />
+        <img
+          height="64px"
+          src="https://cdn.svgporn.com/logos/react.svg"
+        />
+      </a>
+    </td> -->
+<!--       <td width="25%" align="center">
+        <a href="http://redux.js.org/">
+          <span>Redux</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/redux.svg" />
+        </a>
+      </td> -->
+<!--       <td width="25%" align="center">
+        <a href="http://vuejs.org/">
+          <span>Vue.js</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/vue.svg" />
+        </a>
+      </td> -->
+      <!--       <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://aws.amazon.com/">
+          <span>AWS</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/aws.svg" />
+        </a>
+      </td> -->
+<!--       <td width="25%" align="center">
+        <a style="color: black; font-weight: bold; text-decoration: none;" href="https://babeljs.io/">
+          <span>Babel</span><br /><br />
+          <img height="64px" src="https://cdn.svgporn.com/logos/babel.svg" />
+        </a>
+      </td> -->
+<!--     </tr> -->
+  </tbody>
+</table>
