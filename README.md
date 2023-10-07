@@ -41,3 +41,5 @@ Hello! My name is Ashiqur Rahaman and I am a Full Stack Node Developer, passiona
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ashik_0273791)
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/ashiqur999999/) 
 [![!PortFolio](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://ashiqurrahaman02.github.io/)
+
+<h2 align="left">⚡ Tech Stack</h2>
