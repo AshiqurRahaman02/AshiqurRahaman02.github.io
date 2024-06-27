@@ -66,7 +66,7 @@ function transform_hamburger() {
 function openResumeInNewTab() {
 
 	// Get the resume link
-	const resumeLink = "./assets/pdf/Ashiqur-Rahaman -Resume.pdf"
+	const resumeLink = "./assets/pdf/Ashiqur Rahaman - Resume.pdf"
 
 	// Open the resume in a new tab or window
 	window.open(resumeLink, "_blank");
