@@ -827,7 +827,7 @@
 .project-description>p{
     text-align: right;
 }
-.project-description>p:last-child{
+.project-description>p+p{
     color: var(--first-color);
     font-weight: 100;
     font-size: 14px;
@@ -894,4 +894,8 @@
     100%{
         background-position: 190px;
     }
+}
+
+.carousel-item img {
+    height: auto;
 }
